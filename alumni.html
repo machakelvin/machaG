@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Maua Seminary</title>
+	<link href="ds.css" rel="stylesheet"> 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="macha.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="color: red;">Maua Seminary</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="reg.html">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="alumni.html">Alumni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="staff.html">Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contacts</a>
+          </li>
+          
+        </ul>
+        <form>
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ 
+</main>	
+	<!--==============Form Start==============-->
+		<fieldset class="red">
+			<legend> <h1 style="color:red;">Alumni registration</h1></legend>
+			<img src="1655526393219.jpg" alt="" height="100px" width="200px" align="center">
+			
+			<form>
+				<div class="col-25">
+					<label for="aname">Full names</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="aname" name="aname" placeholder="Full names..">
+				  </div>
+				  <div class="col-25">
+					<label for="enrol">Year of enrolment</label>
+				  </div>
+				  <div class="col-75">
+					<input type="month" id="enrol" name="enrol" placeholder="Year of enrolment..">
+				  </div>
+				  <div class="col-25">
+					<label for="gradu">Year of graduation</label>
+				  </div>
+				  <div class="col-75">
+					<input type="month" id="gradu" name="gradu" placeholder="Year of graduation..">
+				  </div>
+				  <div class="col-25">
+					<label for="hname">Headmaster at the time of enrolment</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="hname" name="hname" placeholder="Headmaster's name..">
+				  </div>
+				  <div class="col-25">
+					<label for="gname">Headmaster at the time of graduation</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="gname" name="gname" placeholder="Headmaster's name...">
+				  </div>
+				  <div class="col-25">
+					<label for="tname">Famous teacher at the time of graduation</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="tname" name="tname" placeholder="teacher's name..">
+				  </div>
+				  <label class="prot">Select your division</label><br>
+				  <input type="radio" name="division" value="Division one (I)" id="c1">
+				  <label for="c1">Division I</label>
+				  <input type="radio" name="division" value="Division two (II)" id="c2">
+				  <label for="c1">Division II</label>
+				  <input type="radio" name="division" value="Division three (III)" id="c3">
+				  <label for="c1">Division III</label>
+				  <input type="radio" name="division" value="Division four (IV)" id="c4">
+				  <label for="c1">Division IV</label>
+				  <input type="radio" name="division" value="Division zero (0)" id="c5">
+				  <label for="c1">Division 0</label>
+				  <br>
+				  <label for="question" class="prot">Your occupation:</label>
+				  <select name="question" id="question">
+					  <option value="q0"></option>
+					  <option value="q1">Doctor</option>
+					  <option value="q2">Teacher</option>
+					  <option value="q3">Software developer</option>
+					  <option value="q4">IT project manager</option>
+					  <option value="q5">Other</option>
+				  </select>
+				  <div class="col-25">
+					<label for="tname">Address</label>
+				  </div>
+				  <div class="col-75">
+					<input type="text" id="address" name="addres" placeholder="Enter address....">
+				  </div>
+				  <div class="col-25">
+					<label for="tname">Enter your email</label>
+				  </div>
+				  <div class="col-75">
+					<input type="email" id="Aemail" name="Aemail" placeholder="Email....">
+				  </div>
+				  <div class="col-25">
+					<label for="Apho">Phone number</label>
+				  </div>
+				  <div class="col-75">
+					<input type="number" id="Aphone" name="Aphone" placeholder="Phone number....">
+				  </div>
+				  <div class="col-75">
+					<input type="submit" id="submit" name="sbutton" value="register">
+				  <input type="reset" id="reset" name="rbutton" value="Clear">
+				</div><br><br><br>
+				<p>Already have an account</p>
+				<button><a href="login.html">Login</a></button>
+			</form>
+		</fieldset>
+		<!--==========form ends=======-->
+	
+		 <!--==============footer starts here=============-->
+		 <div class="row">
+			<div class="col-md-3">
+			  <h2>Specific objective</h2>
+					  <p>To have well educated(skilled) and well formed (spiritually and morally upright) students who thrive to become agents for mission of evangelization.</p>
+					  <a href="about.html" class="txt-btn">More about us</a>
+			</div>
+			<div class="col-md-6">
+			  <h2>Conclusion</h2>
+					  <p>The Capuchin friars provide a clear witness of Fransiscan brotherhood through their engagement with the youth who are in need of quality education. Our school is based on both studies and prayers. So you are all welcome</p>
+					  <ul class="contacts">
+						<li><i class="icon-location contact"></i> kilema-kisangiro, Kilimanjaro</li>
+						<li><i class="icon-mobile contact"></i> 0622 109 047</li>
+						<li><a href="#"><i class="icon-mail-1 contact"></i>info@mauaseminary.sc.tz</a></li>
+					  </ul>
+			</div>
+			<div class="col-md-3">
+			  <h2>For admission</h2>
+					  <p>For admission use the following contacts details.(kwa kujiunga na usaili tumia namba hizi)</p><br>
+					  <i class="icon-mobile contact">+255 625 740 048</i></p>
+					  <form id="newsletter" class="form-inline newsletter" role="form">
+						<label class="sr-only" for="exampleInputEmail">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter your email">
+						<button type="submit" class="btn btn-default btn-submit">Subscribe</button>
+					  </form>
+		  
+			</div>
+			<hr>
+			<div class="novo">
+			  <ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="reg.html">Registration</a></li>
+				<li><a href="alumni.html">Alumni</a></li>
+				<li><a href="staff.html">Staff</a></li>
+				<li><a href="contact.html">Contacts</a></li>
+			  </ul>
+			</div>
+			<hr>
+			<div class="dua">
+			 <h5 style="color: pink;">@machakelvin-2022</h5> 
+			</div>
+			
+			</div>
+			<!--==============footer ends here===================-->
+		  <!--==============footer ends here===================-->
+		  <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
